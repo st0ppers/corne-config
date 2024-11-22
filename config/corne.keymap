@@ -8,13 +8,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-&backlight {
-    max_brightness = <150>;       
-    steps = <5>;                
-    default_brightness = <150>;   
-    sleep_brightness = <0>;     
-};
-
 / {
         keymap {
                 compatible = "zmk,keymap";

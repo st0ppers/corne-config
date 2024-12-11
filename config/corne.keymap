@@ -12,50 +12,50 @@
         keymap {
                 compatible = "zmk,keymap";
                 
-                combos = {
-                    compatible = "zmk,combos";
+             //   combos = {
+             //       compatible = "zmk,combos";
 
-                    esc_combo {
-                        keys = <&kp ESC>;
-                        key-positions = <19,20>;// J and K
-                        timeout = <50>;
-                    };
-                    opening_curly_bracket_combo {
-                        keys = <&kp LBRC>;
-                        key-positions = <6,7>;// Y and U
-                        timeout = <50>;
-                    };
-                    closing_curly_bracket_combo {
-                        keys = <&kp RBRC>;
-                        key-positions = <1,2>; // Q and W
-                        timeout = <50>;
-                    };
-                    opening_normal_bracket_combo {
-                        keys = <&kp LPAR>;
-                        key-positions = <18,19>; // H and J
-                        timeout = <50>;
-                    };
-                    closing_normal_bracket_combo {
-                        keys = <&kp RPAR>;
-                        key-positions = <16,17>;// F and G
-                        timeout = <50>;
-                    };
-                    opening_angel_bracket_combo {
-                        keys = <&kp LBKT>;
-                        key-positions = <28,29>; // Positions for V and B
-                        timeout = <50>;
-                    };
-                    closing_angel_bracket_combo {
-                        keys = <&kp LBKT>;
-                        key-positions = <30,31>; // Positions for N and M
-                        timeout = <50>;
-                    };
-                    arrow_combo {
-                        bindings = <&kp EQUAL &kp GT>;
-                        key-positions = <37 38>; // Positions for N and M
-                        timeout = <50>;
-                    };
-                };
+             //       esc_combo {
+             //           keys = <&kp ESC>;
+             //           key-positions = <19,20>;// J and K
+             //           timeout = <50>;
+             //       };
+             //       opening_curly_bracket_combo {
+             //           keys = <&kp LBRC>;
+             //           key-positions = <6,7>;// Y and U
+             //           timeout = <50>;
+             //       };
+             //       closing_curly_bracket_combo {
+             //           keys = <&kp RBRC>;
+             //           key-positions = <1,2>; // Q and W
+             //           timeout = <50>;
+             //       };
+             //       opening_normal_bracket_combo {
+             //           keys = <&kp LPAR>;
+             //           key-positions = <18,19>; // H and J
+             //           timeout = <50>;
+             //       };
+             //       closing_normal_bracket_combo {
+             //           keys = <&kp RPAR>;
+             //           key-positions = <16,17>;// F and G
+             //           timeout = <50>;
+             //       };
+             //       opening_angel_bracket_combo {
+             //           keys = <&kp LBKT>;
+             //           key-positions = <28,29>; // Positions for V and B
+             //           timeout = <50>;
+             //       };
+             //       closing_angel_bracket_combo {
+             //           keys = <&kp LBKT>;
+             //           key-positions = <30,31>; // Positions for N and M
+             //           timeout = <50>;
+             //       };
+             //       arrow_combo {
+             //           bindings = <&kp EQUAL &kp GT>;
+             //           key-positions = <37 38>; // Positions for N and M
+             //           timeout = <50>;
+             //       };
+             //   };
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
